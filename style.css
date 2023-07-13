@@ -15,4 +15,24 @@
         border-radius: 50%;
     }
 
-    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+#Menu {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+#Menu a {
+    display: inline-block;
+    margin: 0 10px;
+}
