@@ -11,14 +11,21 @@
     <div class="hero">
         <div class="hero-content">
             <div class="header">
-                <h1 class="name">Kimberly Glen</h1>
-                <picture>
-                    <source srcset="https://i.postimg.cc/k4JWLrMH/small.png" media="(max-width: 767px)" sizes="px">
-                    <source srcset="https://i.postimg.cc/rsdRLMBf/medium.jpg"
-                        media="(min-width: 768px) and (max-width: 1000px)" sizes="765px">
-                    <source srcset="https://i.postimg.cc/GmkPRcvn/normal.jpg" media="(min-width: 1001px)" sizes="800px">
-                    <img src="https://i.postimg.cc/V6JXzqM9/normal.jpg" alt="Main" width="350" height="350">
-                </picture>
+                <div class="profile">
+                    <h1 class="name">Kimberly Glen</h1>
+                    <picture>
+                        <source srcset="https://i.postimg.cc/k4JWLrMH/small.png" media="(max-width: 767px)" sizes="px">
+                        <source srcset="https://i.postimg.cc/rsdRLMBf/medium.jpg"
+                            media="(min-width: 768px) and (max-width: 1000px)" sizes="765px">
+                        <source srcset="https://i.postimg.cc/GmkPRcvn/normal.jpg" media="(min-width: 1001px)"
+                            sizes="800px">
+                        <img src="https://i.postimg.cc/V6JXzqM9/normal.jpg" alt="Main" width="350" height="350">
+                    </picture>
+                </div>
+                <div class="intro">
+                    <h2>Hello,</h2>
+                    <p>Welcome to my online resumé. Thank you for taking the time to have a look at it!</p>
+                </div>
             </div>
         </div>
 
@@ -95,16 +102,16 @@
         <div class="social-network">
             <a name="Contact"></a>
             <a href="https://www.linkedin.com/in/kimberly-g-a77a65208/" class="bubble" target="_blank">
-              <img src="Images/linkedin.png" alt="LinkedIn">  
+                <img src="Images/linkedin.png" alt="LinkedIn">
             </a>
             <a href="https://github.com/mikcbn" class="bubble" target="_blank">
-             <img src="Images/github-logo.png" alt="GitHub">   
+                <img src="Images/github-logo.png" alt="GitHub">
             </a>
         </div>
 
-                    <br><br>
-                    <div class="form-container">
-                        <p>*If you would like to contact me, please take one minute to fill the form below:</p>
+        <br><br>
+        <div class="form-container">
+            <p>*If you would like to contact me, please take one minute to fill the form below:</p>
             <form action="mailto:kimberlyglen01@gmail.com" method="POST">
                 <label for="subject">*Subject</label><br>
                 <select id="subject" name="subject" required>
@@ -114,7 +121,7 @@
                     <option value="Collaboration">Collaboration</option>
                     <option value="General Inquiry">General Inquiry</option>
                 </select><br><br>
-                
+
 
                 <label for="email">*Your Email:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
@@ -122,15 +129,15 @@
                 <label for="message">Message:</label><br>
                 <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
-            <label>
+                <label>
                     <input type="checkbox" name="read_resume" required>
                     I have read the resume and contacted you.
-            </label>
-  <br><br>
+                </label>
+                <br><br>
                 <input type="submit" value="Submit">
             </form>
             (*indicates required field)
-            </div>
+        </div>
         </footer>
 
     </section>
