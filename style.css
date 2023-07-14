@@ -5,6 +5,7 @@
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
+        border: 12px solid #9bc79b;
     }
 
 
@@ -46,8 +47,8 @@ body {
 }
 
 .intro p {
-    font-size: 16px;
-    color: #111111;
+    font-size: 20px;
+    color: #000000;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -90,6 +91,7 @@ body {
     padding: 20px;
     height: auto
 }
+
 .item-1,
 .item-2,
 .item-3 {
@@ -101,6 +103,26 @@ body {
     grid-row: 1 / span 3;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+}
+
+.item-4 .box {
+    max-height: 400px;
+}
+
+
+
+.parent>ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.item-4 .content h4 {
+    text-align: center;
+
 }
 
 .label {
@@ -112,8 +134,8 @@ body {
 }
 
 .content {
+    text-align: left;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
