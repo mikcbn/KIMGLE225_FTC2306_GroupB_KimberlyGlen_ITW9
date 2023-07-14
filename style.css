@@ -193,11 +193,33 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
     transform: translateX(-50%);
 }
 
+  .form-container h1 {
+      text-align: center;
+      margin: 35px 0 20px 0 !important;
+  }
 
+  .form-group {
+      margin-bottom: 20px;
+      /* Increased margin-bottom for more spacing */
+  }
+
+  .form-group input,
+  .form-group textarea {
+      width: 100%;
+  }
+
+  .form-row {
+      display:flow-root;
+      justify-content: space-between;
+  }
+
+  .form-row .col {
+      flex-basis: 45%;
+      /* Adjust the value as needed to create the desired spacing */
+  }
 form {
     width: 400px;
     margin: 0 auto;

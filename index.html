@@ -194,32 +194,32 @@
 
         <br><br>
         <div class="form-container">
+           
             <p>*If you would like to contact me, please take one minute to fill the form below:</p>
-            <form action="mailto:kimberlyglen01@gmail.com" method="POST">
-                <label for="subject">*Subject</label><br>
-                <select id="subject" name="subject" required>
-                    <option value="">*Select an option</option>
-                    <option value="Job Inquiry">Job Inquiry</option>
-                    <option value="Freelance Opportunity">Freelance Opportunity</option>
-                    <option value="Collaboration">Collaboration</option>
-                    <option value="General Inquiry">General Inquiry</option>
-                </select><br><br>
-
-
-                <label for="email">*Your Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-
-                <label>
-                    <input type="checkbox" name="read_resume" required>
-                    I have read the resume and contacted you.
-                </label>
-                <br><br>
-                <input type="submit" value="Submit">
-            </form>
-            (*indicates required field)
+<div class="form-content">
+  <h1>Contact me:</h1>
+  <form target="_blank" action="https://formsubmit.co/kimberlyglen01@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+<input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
+        (*indicates required field)
         </div>
         </footer>
 
