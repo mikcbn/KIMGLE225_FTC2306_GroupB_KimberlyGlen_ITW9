@@ -73,6 +73,13 @@ body {
     height: auto;
 }
 
+.label {
+    display: inline-block;
+    background-color: #e2e06b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .grid-item {
     background-color: #e9e9e9;
     padding: 20px;
@@ -128,12 +135,6 @@ form {
     width: 400px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
 }
 
 select,
