@@ -90,10 +90,19 @@ body {
     font-size: 24px;
     color: #444;
     text-align: center;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.1s ease, color 0.3s ease;
+    position: relative;
+    padding: 0;
+}
+
+.bubble img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
 }
 
 .bubble:hover {
-    background-color: #ccc;
+    background-color: #9ce686;
     color: #fff;
 }
