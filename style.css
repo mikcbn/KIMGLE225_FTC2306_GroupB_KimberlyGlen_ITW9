@@ -26,6 +26,13 @@ body {
     padding: 20px;
 }
 
+.name {
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    color: #333333;
+}
+
 #Menu {
     display: flex;
     justify-content: center;
