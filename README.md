@@ -31,8 +31,8 @@ Thank you for visiting my online resume page!
 
 
 ## Wireframe
-To view the wireframe for my resume, click [here]
+To view the wireframe for my resume, click the link below:
 
-(https://www.figma.com/file/1Li3u6SCSXSTBC2z60NG0W/Digital-Resume-Wireframe?type=design&node-id=0%3A1&mode=design&t=KmlhwjZjGslpYrPF-1).
+[https://www.figma.com/file/1Li3u6SCSXSTBC2z60NG0W/Digital-Resume-Wireframe?type=design&node-id=0%3A1&mode=design&t=KmlhwjZjGslpYrPF-1].
 
 
