@@ -49,3 +49,7 @@ body {
     font-family: sans-serif;
     font-weight: bold;
 }
+
+.menu-box:hover {
+    transform: scale(1.05);
+}
