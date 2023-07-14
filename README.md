@@ -23,7 +23,7 @@ I'll highlight my educational background in this section.
 Here, I'll outline my key skills and areas of expertise.
 ## Contact Information
 If you'd like to get in touch with me or have any inquiries, feel free to reach out using the following contact details:
-- Email: your-email@example.com
+- Email: kimberlyglen01@gmail.com
 - LinkedIn: [https://www.linkedin.com/in/kimberly-g-a77a65208/]
 - GitHub : [https://github.com/mikcbn]
 

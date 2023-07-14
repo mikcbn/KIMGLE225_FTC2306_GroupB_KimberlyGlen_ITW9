@@ -16,6 +16,12 @@
         border-radius: 50%;
     }
 
+        #back-to-top {
+            position: fixed;
+            bottom: 80px;
+            right: 80px;
+        }
+
 .hero-content {
     background-image: url('Images/Banner.jpg');
     background-size: cover;
