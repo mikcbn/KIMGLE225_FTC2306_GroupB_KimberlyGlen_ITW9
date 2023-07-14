@@ -198,28 +198,34 @@ body {
 
   .form-container h1 {
       text-align: center;
-      margin: 35px 0 20px 0 !important;
+      margin: 35px 0 20px 0;
   }
 
   .form-group {
       margin-bottom: 20px;
-      /* Increased margin-bottom for more spacing */
   }
 
   .form-group input,
   .form-group textarea {
       width: 100%;
+      border-radius: 10px;
   }
 
   .form-row {
       display:flow-root;
       justify-content: space-between;
+      border-radius: 10px;
   }
 
-  .form-row .col {
-      flex-basis: 45%;
-      /* Adjust the value as needed to create the desired spacing */
+.form-group input[type="email"] {
+            border-radius: 10px;
+    }
+
+  .custom-button {
+      border-radius: 50px;
+      cursor: pointer;
   }
+
 form {
     width: 400px;
     margin: 0 auto;
